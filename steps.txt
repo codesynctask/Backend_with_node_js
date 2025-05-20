@@ -1,0 +1,12 @@
+1. initalization ( Basic Set-up )
+    - npm init -y
+    - npm i express 
+    - npm i nodemon -D
+
+    - Edit package.json
+     "type": "module",
+     scripts -> "start": "nodemon index.js"
+
+    - Writing template code for server(express js)
+
+    - start server -> npm run start
