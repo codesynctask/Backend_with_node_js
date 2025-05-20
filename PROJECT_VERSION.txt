@@ -1,0 +1,17 @@
+1. CRUD user (with data.json)
+
+	C - POST / 		-> "show user with id" 		✅	
+	R - GET / 		-> "show all users" - R		✅
+		GET /:id 	-> "show user with id" 		✅
+	U - PATCH /:id 	-> "edit user with id"		✅
+	D - DELETE /:id -> "delete user with id"	✅	
+
+
+2. Authentication (login / Signup) and MVC
+	- ejs
+	- fs as DB
+3. Moving this Data from Fs to mongoDB
+
+
+
+

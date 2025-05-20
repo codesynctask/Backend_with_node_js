@@ -10,3 +10,12 @@
     - Writing template code for server(express js)
 
     - start server -> npm run start
+
+2. User Data
+    - downloading from "https://www.mockaroo.com/"
+
+3. Writing logic for CRUD 
+    - using FS module
+
+    - to read data from req use middleware
+    
