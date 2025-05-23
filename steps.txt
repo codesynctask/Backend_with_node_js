@@ -18,4 +18,21 @@
     - using FS module
 
     - to read data from req use middleware
-    
+
+4. middleware for VIEWS (SSR)
+    $ npm i ejs
+    $ app.set("view engine", "ejs")
+
+5. Adding new USER_DATA.json , which aslo includes password
+
+6. Enabling Router to architecture 
+    - seprate router logic for ROUTES 
+    - /page/        page.route.js
+    - /api/         CRUD.route.js
+
+7. Generating pages from chatGPT
+    HOME    :   show login , signup btn
+    LOGIN   :   form with email and password
+    SIGNUP  :   form with name , gender , email and password
+    PROFILE :   show profile page 
+

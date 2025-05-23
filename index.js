@@ -1,32 +1,21 @@
 // imports
 import express, { urlencoded } from "express"
-import fs from "fs"
-import { handleCreateUser, handleShowAllUsers, hanleShowOneUser, handleUpdateUser, handleDeleteUser } from './controllers/CRUD.controller.js';
+import {CRUD_ROUTE} from "./routes/CRUD.route.js"
+import {PAGE_ROUTE} from './routes/page.route.js';
 
 const app = express();
 
 // Middlewares
 app.use(express.urlencoded({ extended: true }));
 
+// view engine
+app.set("view engine", "ejs")
+
 
 // routes
+app.use("/api/",CRUD_ROUTE)
+app.use("/page/",PAGE_ROUTE)
 
-// 1. CREATE
-app.route("/")
-    .post(handleCreateUser)
-
-// 2. READ
-    .get(handleShowAllUsers)
-
-
-app.route("/:id")
-    .get(hanleShowOneUser)
-
-// 3. UPDATE
-    .patch(handleUpdateUser)
-
-// 4. DELEET
-    .delete(handleDeleteUser)
 
 
 // listen server 
