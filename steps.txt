@@ -36,3 +36,11 @@
     SIGNUP  :   form with name , gender , email and password
     PROFILE :   show profile page 
 
+8. Setup of form route 
+
+9. /login (view) -> / auth/login (logic)
+
+10. Task 
+    login - > render profile page
+    signup -> render login page
+

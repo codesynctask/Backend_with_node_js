@@ -2,6 +2,7 @@
 import express, { urlencoded } from "express"
 import {CRUD_ROUTE} from "./routes/CRUD.route.js"
 import {PAGE_ROUTE} from './routes/page.route.js';
+import {AUTH_ROUTE} from './routes/auth.route.js';
 
 const app = express();
 
@@ -14,7 +15,8 @@ app.set("view engine", "ejs")
 
 // routes
 app.use("/api/",CRUD_ROUTE)
-app.use("/page/",PAGE_ROUTE)
+app.use("/",PAGE_ROUTE)
+app.use("/auth/",AUTH_ROUTE)
 
 
 
