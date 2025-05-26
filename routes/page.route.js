@@ -8,5 +8,3 @@ PAGE_ROUTE.get("/",showHomePage)
 PAGE_ROUTE.get("/login",showLoginPage)
 
 PAGE_ROUTE.get("/signup",showSignupPage)
-
-PAGE_ROUTE.get("/profile",showProfilePage)

@@ -793,10 +793,26 @@
   },
   {
     "id": 100,
-    "name": "Eliza Nanson",
-    "email": "enanson2r@msn.com",
-    "gender": "Female",
-    "job": "Electrical Engineer",
-    "password": "rZ6#@3rX*651b0P"
+    "name": "Deepak Sharma",
+    "email": "deepak92059sharma@gmail.com",
+    "gender": "Male",
+    "job": "Software Engineer",
+    "password": "123"
+  },
+  {
+    "id": 101,
+    "name": "TUI Goku",
+    "email": "goku@123",
+    "gender": "Male",
+    "job": "TUI",
+    "password": "123"
+  },
+  {
+    "id": 102,
+    "name": "Pikachu ",
+    "email": "pika@123",
+    "gender": "Male",
+    "job": "chutiya pokimon",
+    "password": "123"
   }
 ]
