@@ -44,3 +44,11 @@
     login - > render profile page
     signup -> render login page
 
+11. Task : CRUD using mongoDB
+    CREATE  ✅
+    READ    ✅
+    UPDATE  ✅
+    DELETE  ✅
+
+
+12. Completing Signup and Login using mongodb

@@ -7,10 +7,12 @@
 	D - DELETE /:id -> "delete user with id"		✅	
 
 
-2. Authentication (login / Signup) and MVC
-	- ejs
-	- fs as DB
-3. Moving this Data from Fs to mongoDB
+2. Authentication (login / Signup) and MVC 			✅
+	- ejs 											✅
+	- fs as DB 										✅
+3. Moving this Data from Fs to mongoDB 				✅
+
+
 
 
 

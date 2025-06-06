@@ -1,10 +1,9 @@
 // imports
-import express, { urlencoded } from "express"
+import express from "express"
 import {CRUD_ROUTE} from "./routes/CRUD.route.js"
 import {PAGE_ROUTE} from './routes/page.route.js';
 import {AUTH_ROUTE} from './routes/auth.route.js';
 import {connectMongoDB} from "./Databases/connection.js"
-import {User} from "./models/User.js"
 
 
 const app = express();
@@ -18,11 +17,6 @@ app.set("view engine", "ejs")
 
 // Connection --> MongoDB
 connectMongoDB("mongodb+srv://codedeepak:123@cluster0.ayvhvvh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-
-
-// Model of User
-
-
 
 // routes
 app.use("/api/",CRUD_ROUTE)
